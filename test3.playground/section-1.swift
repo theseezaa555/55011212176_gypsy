@@ -1,4 +1,7 @@
+// Playground - noun: a place where people can play
+
 import UIKit
+
 class TipCalculator {
     
     let total: Double
@@ -15,20 +18,19 @@ class TipCalculator {
         return subtotal * tipPct
     }
     
-    func returnPossibleTips() -> [Int: Double] {
-        
+    func returnPossbleTips() -> [Int: Double] {
         let possibleTipsInferred = [0.15,0.18,0.20]
-        let possibleTipsExplicit:[Double] = [0.15,0.18,0.20]
-        var numberOfItems = possibleTipsInferred.count
+        let possibleTipsExplict:[Double] = [0.15,0.18,0.20]
         
-        var retval = [Int:Double]()
-        for possible in possibleTipsInferred{
-            let intPct = Int(possible*100)
+        var retval = Dictionary<Int,Double>()
+        for possibleTip in possibleTipsInferred {
+            let intPct = Int(possibleTip*100)
             
-            retval[intPct] = calcTipWihtTipPct(possible)
+            retval[intPct] = calcTipWihtTipPct(possibleTip)
         }
         return retval
     }
 }
 let tipCalc = TipCalculator(total: 33.25, taxPct: 0.06)
-tipCalc.returnPossibleTips()
+
+tipCalc.returnPossbleTips()
