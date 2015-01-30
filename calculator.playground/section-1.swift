@@ -1,14 +1,14 @@
 
 class TipCalculator {
     
-    // 2
+    
     let total: Double
     let taxPct: Double
     init (total:Double,taxPct:Double){
         self.total=total
         self.taxPct=taxPct
     }
-    // 3
+    
    
     func process() -> Double{
         let total1 = total + taxPct
@@ -38,7 +38,6 @@ class TipCalculator {
     
 
 }
-// 6
 let tipCalc = TipCalculator(total: 10, taxPct: 10)
 tipCalc.process()
 tipCalc.process1()

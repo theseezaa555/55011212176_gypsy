@@ -1,10 +1,10 @@
 // Playground - noun: a place where people can play
+
 import UIKit
 
 
 class zoo{
-    let ani:[String] = ["cat","bat","rat"]
-    let ani2:[String] = ["แมว","ค้างคาว","หนู"]
+    let ani:[String:String] = ["cat":"fish","bat":"blood","rat":"corn"]
     
     let upani:String
     
@@ -14,18 +14,14 @@ class zoo{
     
     func kko() -> String{
         var to:String = ""
-        for(var i=0;i<ani.count;i++){
-            if (upani==ani[i]){
-                to = ani2[i]
-                break
+        for (key,value) in ani {
+            if (key == upani){
+                to = "food to animal is "+value
             }
         }
         return to
     }
     
 }
-let xx = zoo(ani: "cat")
+let xx = zoo(ani: "bat")
 xx.kko()
-
-
-

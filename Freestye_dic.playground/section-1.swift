@@ -35,6 +35,3 @@ let xx = zoo(ani: "199/1")
 xx.add("199/4", pAdd: "Gypsy")
 xx.del("199/3")
 xx.edit("199/4", pEdit: "KKU")
-
-
-
