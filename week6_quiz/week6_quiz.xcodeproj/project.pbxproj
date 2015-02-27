@@ -15,6 +15,8 @@
 		FDB12D121A9738B00019B74A /* week6_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB12D111A9738B00019B74A /* week6_quizTests.swift */; };
 		FDB12D1C1A973CA60019B74A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB12D1B1A973CA60019B74A /* 1.png */; };
 		FDB12D1E1A973E070019B74A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB12D1D1A973E070019B74A /* 2.png */; };
+		FDDD0E6D1AA049840087F51C /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDD0E6C1AA049840087F51C /* 001.png */; };
+		FDDD0E6F1AA04A1B0087F51C /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDD0E6E1AA04A1B0087F51C /* 002.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		FDB12D111A9738B00019B74A /* week6_quizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week6_quizTests.swift; sourceTree = "<group>"; };
 		FDB12D1B1A973CA60019B74A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		FDB12D1D1A973E070019B74A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FDDD0E6C1AA049840087F51C /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		FDDD0E6E1AA04A1B0087F51C /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		FDB12CF91A9738AF0019B74A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDDD0E6E1AA04A1B0087F51C /* 002.png */,
+				FDDD0E6C1AA049840087F51C /* 001.png */,
 				FDB12D1D1A973E070019B74A /* 2.png */,
 				FDB12D1B1A973CA60019B74A /* 1.png */,
 				FDB12CFA1A9738AF0019B74A /* Info.plist */,
@@ -198,7 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDD0E6D1AA049840087F51C /* 001.png in Resources */,
 				FDB12D011A9738AF0019B74A /* Main.storyboard in Resources */,
+				FDDD0E6F1AA04A1B0087F51C /* 002.png in Resources */,
 				FDB12D1C1A973CA60019B74A /* 1.png in Resources */,
 				FDB12D061A9738AF0019B74A /* LaunchScreen.xib in Resources */,
 				FDB12D031A9738AF0019B74A /* Images.xcassets in Resources */,
@@ -413,6 +421,7 @@
 				FDB12D171A9738B00019B74A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDB12D181A9738B00019B74A /* Build configuration list for PBXNativeTarget "week6_quizTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				FDB12D1A1A9738B00019B74A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

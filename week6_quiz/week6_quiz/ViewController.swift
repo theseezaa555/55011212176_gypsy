@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var orientation: UIImageOrientation = .Up
     override func viewDidLoad() {
         super.viewDidLoad()
-        let fileURL = NSBundle.mainBundle().URLForResource("image", withExtension: "png")
+        let fileURL = NSBundle.mainBundle().URLForResource("002", withExtension: "png")
         beginImage = CIImage(contentsOfURL: fileURL)
         
         filter = CIFilter(name: "CISepiaTone")
@@ -57,7 +57,10 @@ class ViewController: UIViewController {
 
     @IBAction func next(sender: AnyObject) {
         
-        for(var i = 1; i < 2; i++) {
+        var shoppingList: [String] = ["001", "002"]
+        
+        for(var i = 0; i < 2; i++) {
+            
             let fileURL = NSBundle.mainBundle().URLForResource("i", withExtension: "png")
             beginImage = CIImage(contentsOfURL: fileURL)
         }
