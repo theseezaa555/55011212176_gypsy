@@ -12,6 +12,8 @@ class data: NSObject {
     func getData() -> Array<balloon> {
         var tempArray = Array<balloon>()
         
+        
+        
         let b1 = balloon(bImage: UIImage(named: "blue.jpg"), bName: "blue")
         tempArray.append(b1)
         

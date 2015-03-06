@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD52ADB01AA98BF80020518C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52ADAF1AA98BF80020518C /* AppDelegate.swift */; };
+		FD52ADB21AA98BF80020518C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52ADB11AA98BF80020518C /* ViewController.swift */; };
+		FD52ADB51AA98BF80020518C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADB31AA98BF80020518C /* Main.storyboard */; };
+		FD52ADB71AA98BF80020518C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADB61AA98BF80020518C /* Images.xcassets */; };
+		FD52ADBA1AA98BF80020518C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADB81AA98BF80020518C /* LaunchScreen.xib */; };
+		FD52ADC61AA98BF80020518C /* SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52ADC51AA98BF80020518C /* SegueTests.swift */; };
+		FD52ADD01AA98D180020518C /* ColorTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52ADCF1AA98D180020518C /* ColorTwoViewController.swift */; };
+		FD52ADD61AA9A13D0020518C /* msu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADD51AA9A13D0020518C /* msu1.jpg */; };
+		FD52ADD81AA9A3100020518C /* คณะวิทยาการสารสนเทศ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADD71AA9A3100020518C /* คณะวิทยาการสารสนเทศ.jpg */; };
+		FD52ADDC1AA9A47C0020518C /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52ADDB1AA9A47C0020518C /* data.swift */; };
+		FD52ADDE1AA9A4CC0020518C /* balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52ADDD1AA9A4CC0020518C /* balloon.swift */; };
+		FD52ADE01AA9A7120020518C /* คณะวิศวะกรรมศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADDF1AA9A7120020518C /* คณะวิศวะกรรมศาสตร์.jpg */; };
+		FD52ADE21AA9A7A60020518C /* คณะสาธารณสุขศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADE11AA9A7A60020518C /* คณะสาธารณสุขศาสตร์.jpg */; };
+		FD52ADE41AA9A9910020518C /* คณะมนุษศาสตร์ฯ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADE31AA9A9910020518C /* คณะมนุษศาสตร์ฯ.jpg */; };
+		FD52ADE61AA9AA060020518C /* คณะสิ่งแวดล้อมฯ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADE51AA9AA060020518C /* คณะสิ่งแวดล้อมฯ.jpg */; };
+		FD52ADE81AA9AA1D0020518C /* คณะบัญชีและการจัดการ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADE71AA9AA1D0020518C /* คณะบัญชีและการจัดการ.jpg */; };
+		FD52ADEA1AA9AA310020518C /* คณะเภสัชศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADE91AA9AA310020518C /* คณะเภสัชศาสตร์.jpg */; };
+		FD52ADEC1AA9AA410020518C /* วิลัยดุริยางค์ฯ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADEB1AA9AA410020518C /* วิลัยดุริยางค์ฯ.jpg */; };
+		FD52ADEE1AA9AA540020518C /* วิลัยการเมืองการปกครอง.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADED1AA9AA540020518C /* วิลัยการเมืองการปกครอง.jpg */; };
+		FD52ADF01AA9AA650020518C /* คณะพยาบาลศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADEF1AA9AA650020518C /* คณะพยาบาลศาสตร์.jpg */; };
+		FD52ADF21AA9AA750020518C /* คณะแพทย์ศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF11AA9AA750020518C /* คณะแพทย์ศาสตร์.jpg */; };
+		FD52ADF41AA9AA880020518C /* คณะวิทยาศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF31AA9AA880020518C /* คณะวิทยาศาสตร์.jpg */; };
+		FD52ADF61AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF51AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg */; };
+		FD52ADF81AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF71AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg */; };
+		FD52ADFA1AA9AAC40020518C /* คณะเทคโนโลยี.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF91AA9AAC40020518C /* คณะเทคโนโลยี.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD52ADC01AA98BF80020518C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD52ADA21AA98BF80020518C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD52ADA91AA98BF80020518C;
+			remoteInfo = Segue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD52ADAA1AA98BF80020518C /* Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD52ADAE1AA98BF80020518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD52ADAF1AA98BF80020518C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD52ADB11AA98BF80020518C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD52ADB41AA98BF80020518C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD52ADB61AA98BF80020518C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD52ADB91AA98BF80020518C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD52ADBF1AA98BF80020518C /* SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD52ADC41AA98BF80020518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD52ADC51AA98BF80020518C /* SegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueTests.swift; sourceTree = "<group>"; };
+		FD52ADCF1AA98D180020518C /* ColorTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTwoViewController.swift; sourceTree = "<group>"; };
+		FD52ADD51AA9A13D0020518C /* msu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = msu1.jpg; sourceTree = "<group>"; };
+		FD52ADD71AA9A3100020518C /* คณะวิทยาการสารสนเทศ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะวิทยาการสารสนเทศ.jpg"; sourceTree = "<group>"; };
+		FD52ADDB1AA9A47C0020518C /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		FD52ADDD1AA9A4CC0020518C /* balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = balloon.swift; sourceTree = "<group>"; };
+		FD52ADDF1AA9A7120020518C /* คณะวิศวะกรรมศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะวิศวะกรรมศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADE11AA9A7A60020518C /* คณะสาธารณสุขศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะสาธารณสุขศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADE31AA9A9910020518C /* คณะมนุษศาสตร์ฯ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะมนุษศาสตร์ฯ.jpg"; sourceTree = "<group>"; };
+		FD52ADE51AA9AA060020518C /* คณะสิ่งแวดล้อมฯ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะสิ่งแวดล้อมฯ.jpg"; sourceTree = "<group>"; };
+		FD52ADE71AA9AA1D0020518C /* คณะบัญชีและการจัดการ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะบัญชีและการจัดการ.jpg"; sourceTree = "<group>"; };
+		FD52ADE91AA9AA310020518C /* คณะเภสัชศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะเภสัชศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADEB1AA9AA410020518C /* วิลัยดุริยางค์ฯ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "วิลัยดุริยางค์ฯ.jpg"; sourceTree = "<group>"; };
+		FD52ADED1AA9AA540020518C /* วิลัยการเมืองการปกครอง.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "วิลัยการเมืองการปกครอง.jpg"; sourceTree = "<group>"; };
+		FD52ADEF1AA9AA650020518C /* คณะพยาบาลศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะพยาบาลศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADF11AA9AA750020518C /* คณะแพทย์ศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะแพทย์ศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADF31AA9AA880020518C /* คณะวิทยาศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะวิทยาศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADF51AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะศิลปกรรมศาสตร์.jpg"; sourceTree = "<group>"; };
+		FD52ADF71AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะสถาปัตย์ฯ.jpg"; sourceTree = "<group>"; };
+		FD52ADF91AA9AAC40020518C /* คณะเทคโนโลยี.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะเทคโนโลยี.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD52ADA71AA98BF80020518C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52ADBC1AA98BF80020518C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD52ADA11AA98BF80020518C = {
+			isa = PBXGroup;
+			children = (
+				FD52ADAC1AA98BF80020518C /* Segue */,
+				FD52ADC21AA98BF80020518C /* SegueTests */,
+				FD52ADAB1AA98BF80020518C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD52ADAB1AA98BF80020518C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD52ADAA1AA98BF80020518C /* Segue.app */,
+				FD52ADBF1AA98BF80020518C /* SegueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD52ADAC1AA98BF80020518C /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				FD52ADAF1AA98BF80020518C /* AppDelegate.swift */,
+				FD52ADB11AA98BF80020518C /* ViewController.swift */,
+				FD52ADB31AA98BF80020518C /* Main.storyboard */,
+				FD52ADDB1AA9A47C0020518C /* data.swift */,
+				FD52ADDD1AA9A4CC0020518C /* balloon.swift */,
+				FD52ADCF1AA98D180020518C /* ColorTwoViewController.swift */,
+				FD52ADB61AA98BF80020518C /* Images.xcassets */,
+				FD52ADB81AA98BF80020518C /* LaunchScreen.xib */,
+				FD52ADAD1AA98BF80020518C /* Supporting Files */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		FD52ADAD1AA98BF80020518C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD52ADF91AA9AAC40020518C /* คณะเทคโนโลยี.jpg */,
+				FD52ADF71AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg */,
+				FD52ADF51AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg */,
+				FD52ADF31AA9AA880020518C /* คณะวิทยาศาสตร์.jpg */,
+				FD52ADF11AA9AA750020518C /* คณะแพทย์ศาสตร์.jpg */,
+				FD52ADEF1AA9AA650020518C /* คณะพยาบาลศาสตร์.jpg */,
+				FD52ADED1AA9AA540020518C /* วิลัยการเมืองการปกครอง.jpg */,
+				FD52ADEB1AA9AA410020518C /* วิลัยดุริยางค์ฯ.jpg */,
+				FD52ADE91AA9AA310020518C /* คณะเภสัชศาสตร์.jpg */,
+				FD52ADE71AA9AA1D0020518C /* คณะบัญชีและการจัดการ.jpg */,
+				FD52ADE51AA9AA060020518C /* คณะสิ่งแวดล้อมฯ.jpg */,
+				FD52ADE31AA9A9910020518C /* คณะมนุษศาสตร์ฯ.jpg */,
+				FD52ADE11AA9A7A60020518C /* คณะสาธารณสุขศาสตร์.jpg */,
+				FD52ADDF1AA9A7120020518C /* คณะวิศวะกรรมศาสตร์.jpg */,
+				FD52ADD71AA9A3100020518C /* คณะวิทยาการสารสนเทศ.jpg */,
+				FD52ADD51AA9A13D0020518C /* msu1.jpg */,
+				FD52ADAE1AA98BF80020518C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD52ADC21AA98BF80020518C /* SegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD52ADC51AA98BF80020518C /* SegueTests.swift */,
+				FD52ADC31AA98BF80020518C /* Supporting Files */,
+			);
+			path = SegueTests;
+			sourceTree = "<group>";
+		};
+		FD52ADC31AA98BF80020518C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD52ADC41AA98BF80020518C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD52ADA91AA98BF80020518C /* Segue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD52ADC91AA98BF80020518C /* Build configuration list for PBXNativeTarget "Segue" */;
+			buildPhases = (
+				FD52ADA61AA98BF80020518C /* Sources */,
+				FD52ADA71AA98BF80020518C /* Frameworks */,
+				FD52ADA81AA98BF80020518C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Segue;
+			productName = Segue;
+			productReference = FD52ADAA1AA98BF80020518C /* Segue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD52ADBE1AA98BF80020518C /* SegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD52ADCC1AA98BF80020518C /* Build configuration list for PBXNativeTarget "SegueTests" */;
+			buildPhases = (
+				FD52ADBB1AA98BF80020518C /* Sources */,
+				FD52ADBC1AA98BF80020518C /* Frameworks */,
+				FD52ADBD1AA98BF80020518C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD52ADC11AA98BF80020518C /* PBXTargetDependency */,
+			);
+			name = SegueTests;
+			productName = SegueTests;
+			productReference = FD52ADBF1AA98BF80020518C /* SegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD52ADA21AA98BF80020518C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD52ADA91AA98BF80020518C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD52ADBE1AA98BF80020518C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD52ADA91AA98BF80020518C;
+					};
+				};
+			};
+			buildConfigurationList = FD52ADA51AA98BF80020518C /* Build configuration list for PBXProject "Segue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD52ADA11AA98BF80020518C;
+			productRefGroup = FD52ADAB1AA98BF80020518C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD52ADA91AA98BF80020518C /* Segue */,
+				FD52ADBE1AA98BF80020518C /* SegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD52ADA81AA98BF80020518C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD52ADEE1AA9AA540020518C /* วิลัยการเมืองการปกครอง.jpg in Resources */,
+				FD52ADE01AA9A7120020518C /* คณะวิศวะกรรมศาสตร์.jpg in Resources */,
+				FD52ADF21AA9AA750020518C /* คณะแพทย์ศาสตร์.jpg in Resources */,
+				FD52ADB51AA98BF80020518C /* Main.storyboard in Resources */,
+				FD52ADE41AA9A9910020518C /* คณะมนุษศาสตร์ฯ.jpg in Resources */,
+				FD52ADF41AA9AA880020518C /* คณะวิทยาศาสตร์.jpg in Resources */,
+				FD52ADD61AA9A13D0020518C /* msu1.jpg in Resources */,
+				FD52ADFA1AA9AAC40020518C /* คณะเทคโนโลยี.jpg in Resources */,
+				FD52ADE81AA9AA1D0020518C /* คณะบัญชีและการจัดการ.jpg in Resources */,
+				FD52ADF81AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg in Resources */,
+				FD52ADF01AA9AA650020518C /* คณะพยาบาลศาสตร์.jpg in Resources */,
+				FD52ADEC1AA9AA410020518C /* วิลัยดุริยางค์ฯ.jpg in Resources */,
+				FD52ADE61AA9AA060020518C /* คณะสิ่งแวดล้อมฯ.jpg in Resources */,
+				FD52ADBA1AA98BF80020518C /* LaunchScreen.xib in Resources */,
+				FD52ADE21AA9A7A60020518C /* คณะสาธารณสุขศาสตร์.jpg in Resources */,
+				FD52ADF61AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg in Resources */,
+				FD52ADEA1AA9AA310020518C /* คณะเภสัชศาสตร์.jpg in Resources */,
+				FD52ADB71AA98BF80020518C /* Images.xcassets in Resources */,
+				FD52ADD81AA9A3100020518C /* คณะวิทยาการสารสนเทศ.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52ADBD1AA98BF80020518C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD52ADA61AA98BF80020518C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD52ADB21AA98BF80020518C /* ViewController.swift in Sources */,
+				FD52ADB01AA98BF80020518C /* AppDelegate.swift in Sources */,
+				FD52ADD01AA98D180020518C /* ColorTwoViewController.swift in Sources */,
+				FD52ADDC1AA9A47C0020518C /* data.swift in Sources */,
+				FD52ADDE1AA9A4CC0020518C /* balloon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52ADBB1AA98BF80020518C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD52ADC61AA98BF80020518C /* SegueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD52ADC11AA98BF80020518C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD52ADA91AA98BF80020518C /* Segue */;
+			targetProxy = FD52ADC01AA98BF80020518C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD52ADB31AA98BF80020518C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD52ADB41AA98BF80020518C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD52ADB81AA98BF80020518C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD52ADB91AA98BF80020518C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD52ADC71AA98BF80020518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD52ADC81AA98BF80020518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD52ADCA1AA98BF80020518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Segue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD52ADCB1AA98BF80020518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Segue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD52ADCD1AA98BF80020518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segue.app/Segue";
+			};
+			name = Debug;
+		};
+		FD52ADCE1AA98BF80020518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segue.app/Segue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD52ADA51AA98BF80020518C /* Build configuration list for PBXProject "Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD52ADC71AA98BF80020518C /* Debug */,
+				FD52ADC81AA98BF80020518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD52ADC91AA98BF80020518C /* Build configuration list for PBXNativeTarget "Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD52ADCA1AA98BF80020518C /* Debug */,
+				FD52ADCB1AA98BF80020518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD52ADCC1AA98BF80020518C /* Build configuration list for PBXNativeTarget "SegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD52ADCD1AA98BF80020518C /* Debug */,
+				FD52ADCE1AA98BF80020518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD52ADA21AA98BF80020518C /* Project object */;
+}

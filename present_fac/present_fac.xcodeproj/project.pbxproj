@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD52AD921AA97F1E0020518C /* husoc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD911AA97F1E0020518C /* husoc.jpg */; };
+		FD52AD941AA9826A0020518C /* pimarsy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD931AA9826A0020518C /* pimarsy.jpg */; };
+		FD52AD961AA9842B0020518C /* pub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD951AA9842B0020518C /* pub.jpg */; };
+		FD52AD981AA984A90020518C /* sci.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD971AA984A90020518C /* sci.jpg */; };
+		FD52AD9A1AA984EF0020518C /* tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD991AA984EF0020518C /* tech.jpg */; };
+		FD52AD9C1AA989AA0020518C /* tapad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD9B1AA989AA0020518C /* tapad.jpg */; };
+		FD52AD9E1AA98A3E0020518C /* envi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD9D1AA98A3E0020518C /* envi.jpg */; };
+		FD52ADA01AA98AA20020518C /* sinrapa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52AD9F1AA98AA20020518C /* sinrapa.jpg */; };
+		FD52ADD21AA99AD60020518C /* music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADD11AA99AD60020518C /* music.jpg */; };
+		FD52ADD41AA99B010020518C /* niti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADD31AA99B010020518C /* niti.jpg */; };
 		FDDD0EC11AA064F20087F51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD0EC01AA064F20087F51C /* AppDelegate.swift */; };
 		FDDD0EC61AA064F20087F51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDD0EC41AA064F20087F51C /* Main.storyboard */; };
 		FDDD0EC81AA064F20087F51C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDD0EC71AA064F20087F51C /* Images.xcassets */; };
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD52AD911AA97F1E0020518C /* husoc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = husoc.jpg; sourceTree = "<group>"; };
+		FD52AD931AA9826A0020518C /* pimarsy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pimarsy.jpg; sourceTree = "<group>"; };
+		FD52AD951AA9842B0020518C /* pub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pub.jpg; sourceTree = "<group>"; };
+		FD52AD971AA984A90020518C /* sci.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sci.jpg; sourceTree = "<group>"; };
+		FD52AD991AA984EF0020518C /* tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tech.jpg; sourceTree = "<group>"; };
+		FD52AD9B1AA989AA0020518C /* tapad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tapad.jpg; sourceTree = "<group>"; };
+		FD52AD9D1AA98A3E0020518C /* envi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = envi.jpg; sourceTree = "<group>"; };
+		FD52AD9F1AA98AA20020518C /* sinrapa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinrapa.jpg; sourceTree = "<group>"; };
+		FD52ADD11AA99AD60020518C /* music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music.jpg; sourceTree = "<group>"; };
+		FD52ADD31AA99B010020518C /* niti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = niti.jpg; sourceTree = "<group>"; };
 		FDDD0EBB1AA064F20087F51C /* present_fac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = present_fac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDD0EBF1AA064F20087F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDD0EC01AA064F20087F51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +135,16 @@
 		FDDD0EBE1AA064F20087F51C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD52ADD31AA99B010020518C /* niti.jpg */,
+				FD52ADD11AA99AD60020518C /* music.jpg */,
+				FD52AD9F1AA98AA20020518C /* sinrapa.jpg */,
+				FD52AD9D1AA98A3E0020518C /* envi.jpg */,
+				FD52AD9B1AA989AA0020518C /* tapad.jpg */,
+				FD52AD991AA984EF0020518C /* tech.jpg */,
+				FD52AD971AA984A90020518C /* sci.jpg */,
+				FD52AD951AA9842B0020518C /* pub.jpg */,
+				FD52AD931AA9826A0020518C /* pimarsy.jpg */,
+				FD52AD911AA97F1E0020518C /* husoc.jpg */,
 				FDDD0EF61AA075E30087F51C /* mbs.jpg */,
 				FDDD0EF41AA074B50087F51C /* msu1.jpg */,
 				FDDD0EEE1AA0690F0087F51C /* medicin.jpg */,
@@ -226,16 +256,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDDD0EE71AA068380087F51C /* sunsug.jpg in Resources */,
+				FD52ADA01AA98AA20020518C /* sinrapa.jpg in Resources */,
+				FD52AD921AA97F1E0020518C /* husoc.jpg in Resources */,
 				FDDD0EEB1AA068C70087F51C /* en.jpg in Resources */,
 				FDDD0EC61AA064F20087F51C /* Main.storyboard in Resources */,
 				FDDD0ECB1AA064F20087F51C /* LaunchScreen.xib in Resources */,
 				FDDD0EC81AA064F20087F51C /* Images.xcassets in Resources */,
+				FD52AD941AA9826A0020518C /* pimarsy.jpg in Resources */,
 				FDDD0EE51AA068080087F51C /* MSU.jpg in Resources */,
 				FDDD0EF71AA075E30087F51C /* mbs.jpg in Resources */,
+				FD52AD9E1AA98A3E0020518C /* envi.jpg in Resources */,
+				FD52AD981AA984A90020518C /* sci.jpg in Resources */,
+				FD52ADD21AA99AD60020518C /* music.jpg in Resources */,
+				FD52AD9A1AA984EF0020518C /* tech.jpg in Resources */,
+				FD52AD9C1AA989AA0020518C /* tapad.jpg in Resources */,
+				FD52AD961AA9842B0020518C /* pub.jpg in Resources */,
 				FDDD0EE91AA068830087F51C /* facit.jpg in Resources */,
 				FDDD0EF51AA074B50087F51C /* msu1.jpg in Resources */,
 				FDDD0EEF1AA0690F0087F51C /* medicin.jpg in Resources */,
 				FDDD0EED1AA068EB0087F51C /* nu.jpg in Resources */,
+				FD52ADD41AA99B010020518C /* niti.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +489,7 @@
 				FDDD0EDC1AA064F20087F51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDDD0EDD1AA064F20087F51C /* Build configuration list for PBXNativeTarget "present_facTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +498,7 @@
 				FDDD0EDF1AA064F20087F51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
