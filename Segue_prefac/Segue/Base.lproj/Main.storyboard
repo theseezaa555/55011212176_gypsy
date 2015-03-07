@@ -16,6 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999966" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DAB-rK-XIb">
+                                <rect key="frame" x="0.0" y="132" width="375" height="471"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r41-J6-lYz">
+                                <rect key="frame" x="16" y="154" width="343" height="220"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XhQ-C3-6a8">
                                 <rect key="frame" x="16" y="88" width="343" height="44"/>
                                 <items>
@@ -28,11 +34,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msu1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="r41-J6-lYz">
-                                <rect key="frame" x="71" y="192" width="237" height="176"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdd-rt-01x">
-                                <rect key="frame" x="103" y="419" width="173" height="46"/>
+                                <rect key="frame" x="96" y="557" width="173" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1251.5" y="428.5"/>
+            <point key="canvasLocation" x="1206.5" y="429.5"/>
         </scene>
         <!--Color Two View Controller-->
         <scene sceneID="eSH-3C-2MQ">
@@ -64,7 +67,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kpx-zh-IbJ">
-                                <rect key="frame" x="16" y="89" width="349" height="44"/>
+                                <rect key="frame" x="13" y="89" width="349" height="44"/>
                                 <items>
                                     <navigationItem title="คณะ" id="Cd7-7b-2Mv">
                                         <barButtonItem key="rightBarButtonItem" title="เลือก" id="1hP-tR-rqw">
@@ -90,12 +93,6 @@
                                     <action selector="colorSelectionButton:" destination="C7q-2M-kJT" eventType="touchUpInside" id="mmQ-eu-ZCm"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เลือก :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKs-wk-3XT">
-                                <rect key="frame" x="68" y="178" width="89" height="26"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaQ-Ie-D6X">
                                 <rect key="frame" x="58" y="226" width="152" height="30"/>
                                 <state key="normal" title="คณะวิทยาการสารสนเทศ">
@@ -124,7 +121,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLK-YG-6gh">
-                                <rect key="frame" x="59" y="331" width="152" height="30"/>
+                                <rect key="frame" x="58" y="330" width="152" height="30"/>
                                 <state key="normal" title="คณะบัญชีและการจัดการ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -222,6 +219,12 @@
                                     <action selector="colorSelectionButton:" destination="C7q-2M-kJT" eventType="touchUpInside" id="nl7-FO-m48"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เลือก :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKs-wk-3XT">
+                                <rect key="frame" x="59" y="178" width="89" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -255,6 +258,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="msu1.jpg" width="200" height="255"/>
+        <image name="bg.jpg" width="450" height="263"/>
     </resources>
 </document>

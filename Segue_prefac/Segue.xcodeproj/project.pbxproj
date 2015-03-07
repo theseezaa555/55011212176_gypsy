@@ -32,6 +32,8 @@
 		FD52ADF61AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF51AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg */; };
 		FD52ADF81AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF71AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg */; };
 		FD52ADFA1AA9AAC40020518C /* คณะเทคโนโลยี.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD52ADF91AA9AAC40020518C /* คณะเทคโนโลยี.jpg */; };
+		FDB9FD1D1AAADD0E002FC6B2 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDB9FD1C1AAADD0E002FC6B2 /* bg.jpg */; };
+		FDB9FD1F1AAADE52002FC6B2 /* tok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDB9FD1E1AAADE52002FC6B2 /* tok.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		FD52ADF51AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะศิลปกรรมศาสตร์.jpg"; sourceTree = "<group>"; };
 		FD52ADF71AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะสถาปัตย์ฯ.jpg"; sourceTree = "<group>"; };
 		FD52ADF91AA9AAC40020518C /* คณะเทคโนโลยี.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "คณะเทคโนโลยี.jpg"; sourceTree = "<group>"; };
+		FDB9FD1C1AAADD0E002FC6B2 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		FDB9FD1E1AAADE52002FC6B2 /* tok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tok.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				FD52ADAF1AA98BF80020518C /* AppDelegate.swift */,
-				FD52ADB11AA98BF80020518C /* ViewController.swift */,
 				FD52ADB31AA98BF80020518C /* Main.storyboard */,
 				FD52ADDB1AA9A47C0020518C /* data.swift */,
 				FD52ADDD1AA9A4CC0020518C /* balloon.swift */,
+				FD52ADB11AA98BF80020518C /* ViewController.swift */,
 				FD52ADCF1AA98D180020518C /* ColorTwoViewController.swift */,
 				FD52ADB61AA98BF80020518C /* Images.xcassets */,
 				FD52ADB81AA98BF80020518C /* LaunchScreen.xib */,
@@ -131,6 +135,8 @@
 		FD52ADAD1AA98BF80020518C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDB9FD1E1AAADE52002FC6B2 /* tok.jpg */,
+				FDB9FD1C1AAADD0E002FC6B2 /* bg.jpg */,
 				FD52ADF91AA9AAC40020518C /* คณะเทคโนโลยี.jpg */,
 				FD52ADF71AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg */,
 				FD52ADF51AA9AA9B0020518C /* คณะศิลปกรรมศาสตร์.jpg */,
@@ -253,11 +259,13 @@
 				FD52ADE01AA9A7120020518C /* คณะวิศวะกรรมศาสตร์.jpg in Resources */,
 				FD52ADF21AA9AA750020518C /* คณะแพทย์ศาสตร์.jpg in Resources */,
 				FD52ADB51AA98BF80020518C /* Main.storyboard in Resources */,
+				FDB9FD1D1AAADD0E002FC6B2 /* bg.jpg in Resources */,
 				FD52ADE41AA9A9910020518C /* คณะมนุษศาสตร์ฯ.jpg in Resources */,
 				FD52ADF41AA9AA880020518C /* คณะวิทยาศาสตร์.jpg in Resources */,
 				FD52ADD61AA9A13D0020518C /* msu1.jpg in Resources */,
 				FD52ADFA1AA9AAC40020518C /* คณะเทคโนโลยี.jpg in Resources */,
 				FD52ADE81AA9AA1D0020518C /* คณะบัญชีและการจัดการ.jpg in Resources */,
+				FDB9FD1F1AAADE52002FC6B2 /* tok.jpg in Resources */,
 				FD52ADF81AA9AAAE0020518C /* คณะสถาปัตย์ฯ.jpg in Resources */,
 				FD52ADF01AA9AA650020518C /* คณะพยาบาลศาสตร์.jpg in Resources */,
 				FD52ADEC1AA9AA410020518C /* วิลัยดุริยางค์ฯ.jpg in Resources */,

@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         return cell
     }
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let alert = UIAlertController(title: "Item selected", message: "You selected item \(indexPath.row)", preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: "Item selected", message: "You selected item \(indexPath.row).", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { (alert:UIAlertAction!) in println("An alert of type \(alert.style.hashValue) was tapped!")
         }))
         self.presentViewController(alert, animated: true, completion: nil)

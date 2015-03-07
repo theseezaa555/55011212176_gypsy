@@ -42,7 +42,7 @@
 		FDDD0E8E1AA04EAD0087F51C /* customTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDD0E931AA04EAD0087F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDD0E941AA04EAD0087F51C /* customTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewTests.swift; sourceTree = "<group>"; };
-		FDDD0EA21AA050750087F51C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FDDD0EA21AA050750087F51C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
 		FDDD0EA41AA0509B0087F51C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		FDDD0EA61AA053120087F51C /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
 		FDDD0EA81AA0534F0087F51C /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
@@ -73,7 +73,6 @@
 		FDDD0E701AA04EAD0087F51C = {
 			isa = PBXGroup;
 			children = (
-				FDDD0EA21AA050750087F51C /* TableViewController.swift */,
 				FDDD0E7B1AA04EAD0087F51C /* customTableView */,
 				FDDD0E911AA04EAD0087F51C /* customTableViewTests */,
 				FDDD0E7A1AA04EAD0087F51C /* Products */,
@@ -96,6 +95,7 @@
 				FDDD0E821AA04EAD0087F51C /* Main.storyboard */,
 				FDDD0E851AA04EAD0087F51C /* Images.xcassets */,
 				FDDD0E871AA04EAD0087F51C /* LaunchScreen.xib */,
+				FDDD0EA21AA050750087F51C /* TableViewController.swift */,
 				FDDD0EA41AA0509B0087F51C /* TableViewCell.swift */,
 				FDDD0EAC1AA0551A0087F51C /* data.swift */,
 				FDDD0EAE1AA0554C0087F51C /* balloon.swift */,
@@ -433,6 +433,7 @@
 				FDDD0E9A1AA04EAD0087F51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDDD0E9B1AA04EAD0087F51C /* Build configuration list for PBXNativeTarget "customTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +442,7 @@
 				FDDD0E9D1AA04EAD0087F51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
