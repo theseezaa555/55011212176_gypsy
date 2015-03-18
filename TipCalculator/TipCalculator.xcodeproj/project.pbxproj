@@ -15,6 +15,7 @@
 		FD2928151A849E5400D9C49F /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2928141A849E5400D9C49F /* TipCalculatorTests.swift */; };
 		FD29281F1A84A83100D9C49F /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD29281E1A84A83100D9C49F /* TipCalculatorModel.swift */; };
 		FD2928211A84B70900D9C49F /* 1429_120627161341G9.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2928201A84B70900D9C49F /* 1429_120627161341G9.png */; };
+		FD6B8ACB1AB9537300248FDF /* tick-ok-sign-26707.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD6B8ACA1AB9537300248FDF /* tick-ok-sign-26707.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FD2928141A849E5400D9C49F /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		FD29281E1A84A83100D9C49F /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 		FD2928201A84B70900D9C49F /* 1429_120627161341G9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1429_120627161341G9.png; sourceTree = "<group>"; };
+		FD6B8ACA1AB9537300248FDF /* tick-ok-sign-26707.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tick-ok-sign-26707.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		FD2927FC1A849E5400D9C49F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD6B8ACA1AB9537300248FDF /* tick-ok-sign-26707.jpg */,
 				FD2928201A84B70900D9C49F /* 1429_120627161341G9.png */,
 				FD2927FD1A849E5400D9C49F /* Info.plist */,
 			);
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6B8ACB1AB9537300248FDF /* tick-ok-sign-26707.jpg in Resources */,
 				FD2928041A849E5400D9C49F /* Main.storyboard in Resources */,
 				FD2928091A849E5400D9C49F /* LaunchScreen.xib in Resources */,
 				FD2928061A849E5400D9C49F /* Images.xcassets in Resources */,
@@ -413,6 +417,7 @@
 				FD29281A1A849E5400D9C49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD29281B1A849E5400D9C49F /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				FD29281D1A849E5400D9C49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
