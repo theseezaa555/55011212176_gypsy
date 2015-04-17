@@ -24,6 +24,8 @@ class ViewController: UIViewController ,UIImagePickerControllerDelegate,UINaviga
         super.viewDidLoad()
         imagePicker = UIImagePickerController()
         imagePicker.delegate = self
+        
+        
         //let fileURL = NSBundle.mainBundle().URLForResource("image", withExtension: "png")
        // beginImage = CIImage(contentsOfURL: fileURL)
         

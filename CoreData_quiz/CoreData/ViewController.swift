@@ -90,21 +90,30 @@ class ViewController: UIViewController, UITableViewDataSource ,UITableViewDelega
         
         let appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         let context:NSManagedObjectContext = appDel.managedObjectContext!
-        
+       
         if editingStyle == UITableViewCellEditingStyle.Delete{
-           
-            items.removeAtIndex(indexPath.row)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
-            
-            let appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-            let context:NSManagedObjectContext = appDel.managedObjectContext!
+         
+            //items.removeAtIndex(indexPath.row)
             context.deleteObject(items[indexPath.row] as NSManagedObject)
             items.removeAtIndex(indexPath.row)
+            
             context.save(nil)
             
-            self.tableView.deleteRowsAtIndexPaths([indexPath.row], withRowAnimation: .Fade)
+            tableView.beginUpdates()
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
             
-         return
+            
+            
+            tableView.endUpdates()
+            let appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+            let context:NSManagedObjectContext = appDel.managedObjectContext!
+            
+            
+            //self.tableView.deleteRowsAtIndexPaths([indexPath.row], withRowAnimation: .Fade)
+            
+            
+            
+         
 
             
         
